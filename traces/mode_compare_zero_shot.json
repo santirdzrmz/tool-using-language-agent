@@ -1,0 +1,20 @@
+{
+  "answer": "Germany's win rate in World Cup knockout matches is 70.83% (34 wins out of a total of 48 matches).",
+  "trace": [
+    {
+      "step": "tool_use",
+      "tool": "calculate_stat",
+      "input": {
+        "expression": "34 / (34 + 14)"
+      },
+      "output": "0.7083"
+    },
+    {
+      "step": "final_answer",
+      "content": "Germany's win rate in World Cup knockout matches is 70.83% (34 wins out of a total of 48 matches)."
+    }
+  ],
+  "iterations": 1,
+  "success": true,
+  "mode": "zero_shot"
+}
